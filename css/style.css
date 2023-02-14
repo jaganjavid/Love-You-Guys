@@ -1,0 +1,134 @@
+/* h1{
+    color: blue;
+} */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    color: red;
+}
+
+.heading{
+    color: rgba(58, 74, 221, 1);
+}
+
+
+.container{
+ width: 80%;  
+ margin: 0px auto; 
+ 
+}
+
+.box-1{
+    /* border: 1px solid blue; */
+    /* padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px; */
+    /* border-top: 2px solid red;
+    border-right: 5px solid blue;
+    border-bottom: 10px dotted brown;
+    border-left: 15px double violet; */
+    /* margin: 50px; */
+    /* margin: 30px 80px; */
+    /* margin: 50px 60px 70px 80px; */
+    padding: 50px;
+    border: 2px solid blue;
+    margin:50px 0px;
+}
+
+.box-1 h1{
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+}
+
+.box-1 p{
+    color: grey;
+}
+
+.box-2{
+    padding: 50px;
+    border: 3px dotted rgb(64, 14, 229);
+    margin-bottom: 20px;
+}
+
+.list{
+    background-color: grey;
+}
+
+.list ul {
+    list-style: none;
+    padding: 30px;
+
+}
+
+.list ul li{
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: blue;
+    /* text-align: left; */
+}
+
+.block{
+    box-sizing: border-box;
+    float: left;
+    width: 33.3%;
+    border:1px solid grey;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.main-content{
+    width: 70%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.aside{
+    width: 30%;
+    margin-top: 20px;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    background: grey;
+}
+
+.aside h2{
+    color: #ffffff;
+}
+
+.form div label,
+.form div input{
+    display: block;
+    margin: 10px;
+}
+
+.form div input{
+    width: 80%;
+    padding: 10px 20px;
+}
+
+.form div textarea{
+    width: 80%;
+    /* padding: 10px 20px; */
+} 
+
+button{
+    background-color: blue;
+    color: #ffffff;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 15px;
+}
