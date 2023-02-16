@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;    
+}
+
+body{
+    padding: 20px;
+}
+
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.child{
+    width: 200px;
+    height: 150px;
+    background-color: blue;
+}
+@media only screen and (min-width: 1200px){
+    .child-3{
+        background-color: rgb(255, 0, 187);
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .child-2{
+        background-color: rgb(202, 8, 228);
+    }
+}
+
+@media only screen and (min-width: 900px){
+    .child-1{
+        background-color: red;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .child-1{
+        background-color: rgb(0, 255, 0);
+    }
+}
+@media only screen and (max-width: 500px){
+    .child-2{
+        background-color: rgb(246, 255, 0);
+    }
+}
+@media only screen and (max-width: 400px){
+    .child-3{
+        background-color: rgb(0, 255, 229);
+    }
+}
